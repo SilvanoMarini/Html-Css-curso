@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aula11</title>
+
+<style>
+  body {
+    font-family: sans-serif;
+  }
+
+
+  table{
+    border-collapse: collapse;
+    width: 800px;
+  }
+
+
+  table th, table td {
+    border: 1px solid silver;
+    padding: 5px;
+    text-align: left;
+  }
+
+  table caption {
+    font-size: 10px;
+    font-family: italic;
+    caption-side: bottom;
+    text-align: left;
+  }
+
+  tfoot td, thead th{
+    background-color: #ddd;
+  }
+
+  tfoot {
+    font-style: italic;
+  }
+
+  .responsive-table {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+</style>
+
+</head>
+<body>
+  <p>lorem ipsum dolor sit</p>
+
+<div class="responsive-table">
+  <table>
+    <caption>Descrição da tabela</caption>
+      <thead>
+        <tr>
+          <th>Título 1</th>
+          <th>Título 2</th>
+          <th>Título 3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>coisa 1</td>
+          <td>coisa 2</td>
+          <td>coisa 3</td>
+        </tr>
+        <tr>
+          <td>coisa 1</td>
+          <td>coisa 2</td>
+          <td>coisa 3</td>
+        </tr>
+        <tr>
+          <td>coisa 1</td>
+          <td>coisa 2</td>
+          <td>coisa 3</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2" rowspan="2"></td>
+          <td>Total</td>
+        </tr>
+        <tr>
+          <td>R$555,00</td>
+        </tr>
+      </tfoot>
+
+  </table>
+</div>
+</body>
+</html>
