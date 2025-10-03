@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>aula14</title>
+  <title>aula15</title>
 
 <style>
 
@@ -23,7 +23,7 @@
 
     <p>
       <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" >
     </p>
 
     <p>
@@ -51,17 +51,17 @@
 
     <p>
       <label for="date">Date</label>
-      <input type="date" id="date" name="date" value="2025-10-03" required>
+      <input type="date" id="date" name="date" value="2025-10-03" >
     </p>
 
     <p>
       <label for="datetime-local">Date</label>
-      <input type="datetime-local" id="datetime-local" name="datetime-local" value="2025-10-03T18:00" required>
+      <input type="datetime-local" id="datetime-local" name="datetime-local" value="2025-10-03T18:00" >
     </p>
 
     <p>
       <label for="time">Time</label>
-      <input type="time" id="time" name="time" value="18:00" required>
+      <input type="time" id="time" name="time" value="18:00" >
     </p>
 
     <p>
@@ -71,7 +71,7 @@
 
     <p>
       <label for="email"> Seu email</label>
-      <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+      <input type="email" id="email" name="email" placeholder="exemple@email.com" >
     </p>
 
     <p>
@@ -82,6 +82,55 @@
     <p>
       <label for="number">Número</label>
       <input type="number" id="number" name="number" min="0" max="50" step="5">
+    </p>
+
+    <p>
+      <label for="password"> Senha</label>
+      <input type="password" id="password" name="password" placeholder="Digite sua senha"  >
+    </p>
+
+    <p>
+      <label for="range">Range</label>
+      <input type="range" id="range" name="range" min="0" max="10" step="2" value="0">
+    </p>
+
+    <p>
+      <label for="url"> Url</label>
+      <input type="url" id="url" name="url" placeholder="URL">
+    </p>
+
+    <p>
+      <label for="search"> Search</label>
+      <input type="search" id="search" name="search" placeholder="search">
+    </p>
+
+    <p>
+      <label for="select"> Escolhar</label>
+      <select id="select" name="select">
+        <optgroup label="Teste">
+        <option value="qualquer coisa 1" label="Valor1">
+        <option value="qualquer coisa 2" label="Valor2">
+        <option value="qualquer coisa 3" label="Valor3" selected>
+        <option value="qualquer coisa 4" label="Valor4">
+        </optgroup>
+        <optgroup label="Teste">
+        <option value="qualquer coisa 1" label="Valor1">
+        <option value="qualquer coisa 2" label="Valor2">
+        <option value="qualquer coisa 3" label="Valor3" selected>
+        <option value="qualquer coisa 4" label="Valor4">
+        </optgroup>
+        <optgroup label="Teste">
+        <option value="qualquer coisa 1" label="Valor1">
+        <option value="qualquer coisa 2" label="Valor2">
+        <option value="qualquer coisa 3" label="Valor3" selected>
+        <option value="qualquer coisa 4" label="Valor4">
+        </optgroup>
+      </select>
+    </p>
+
+    <p>
+      <label for="textarea">textarea:</label>
+      <textarea name="textarea" id="textarea" rows="3" cols="9">area de texto</textarea>
     </p>
 
     <p>
