@@ -4,17 +4,20 @@
 
 }
 
-.caixa {
+/* .caixa {
   background: red;
   width: 120px;
   height: 120px;
 }
 
-p {
+h1, p {
   color: black;
 }
 
 body section div p,
 body section div h1 {
   color: rgb(0, 255, 26);
+} */
+.heading {
+  color: blue;
 }
