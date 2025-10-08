@@ -18,6 +18,41 @@ body section div p,
 body section div h1 {
   color: rgb(0, 255, 26);
 } */
-.heading {
+
+/* .heading {
   color: blue;
+} */
+
+/* .main-content h2 {
+  font-style: italic;
+  color: chartreuse;
+} */
+
+/* .main-content .heading {
+  font-style: italic;
+  color: aqua;
+} */
+/* 
+.main-content .heading .outra-cor {
+  font-style: italic;
+  color: rgb(89, 0, 255);
+}
+
+div.main-content h2.heading {
+  font-style: italic;
+  color: aqua;
+} */
+
+div {
+  margin-left: 20px;
+  margin-top: 5px;
+  color: initial;
+}
+
+/* .pai > .filha {
+  color: rgb(0, 139, 7);
+} */
+
+.pai > .filha > .filha {
+  color: rgb(132, 0, 255);
 }
