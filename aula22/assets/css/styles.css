@@ -1,0 +1,40 @@
+/* ul li::after {
+  content: ' - ';
+}
+
+ul li::before {
+  content: ' - ';
+  background-color: blue;
+  display: block;
+} */
+
+p::first-letter {
+  font-size: 100px;
+  float: left;
+  display: block;
+  margin: 0 20px 10px 0;
+}
+
+p::first-line {
+  color: red;
+}
+
+p::selection {
+  background-color: black;
+  color: white;
+}
+
+::placeholder {
+  background-color: rgba(255, 13, 13, 0.297);
+  color: rgb(6, 26, 255);
+}
+
+.A::placeholder {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+/* input::placeholder {
+  background-color: black;
+  color: white;
+} */
