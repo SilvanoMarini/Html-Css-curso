@@ -1,0 +1,27 @@
+#p {
+  background-color: aqua;
+}
+
+.p {
+  background-color: #00ff15;
+}
+
+#p.p {
+  background-color: #ff0000;
+}
+
+p {
+  background-color: blueviolet;
+}
+
+p#p.p {
+  background-color: chocolate;
+}
+
+body#b p#p.p {
+  background-color: darkblue;
+}
+
+body#b.b p#p.p::selection:hover{
+  background-color: darkblue;
+}
