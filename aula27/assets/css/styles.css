@@ -1,0 +1,35 @@
+.caixa {
+  height: 300px;
+  width: 300px;
+  background-color: #F00;
+}
+
+.caixa {
+  height: 300px;
+  width: 300px;
+  background-color: #123;
+}
+
+.caixa {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(206, 78, 78);
+} */
+
+ .caixa {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.caixa {
+  height: 300px;
+  width: 300px;
+  background-color: hsl(0, 100%, 50%);
+}
+
+.caixa {
+  height: 300px;
+  width: 300px;
+  background-color: hsla(0, 100%, 50%, 75%);
+}
