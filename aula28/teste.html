@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste Smooth Scroll</title>
+  <style>
+    html, body {
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      margin: 1rem;
+      display: inline-block;
+    }
+
+    .pai {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+    }
+
+    #one { background: aqua; }
+    #two { background: blueviolet; }
+    #three { background: cornflowerblue; }
+  </style>
+</head>
+<body>
+  <a href="#one">one</a>
+  <a href="#two">two</a>
+  <a href="#three">three</a>
+
+  <div class="pai" id="one">Section One</div>
+  <div class="pai" id="two">Section Two</div>
+  <div class="pai" id="three">Section Three</div>
+</body>
+</html>

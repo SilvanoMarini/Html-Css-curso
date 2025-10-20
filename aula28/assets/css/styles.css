@@ -1,0 +1,41 @@
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* .pai {
+  font-size: 50px;
+} */
+
+
+/* p {
+  font-size: 3em;
+} */
+
+/* .pai {
+  width: 20rem;
+  height: 20rem;
+  background-color: aqua;
+} */
+
+.pai {
+  height: 100vh;
+  background: aqua;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.color-one {
+  background: blueviolet;
+}
+
+.color-two {
+  background: rgb(43, 67, 226);
+}
