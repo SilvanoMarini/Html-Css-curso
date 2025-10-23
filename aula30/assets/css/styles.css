@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+.pai {
+  height: 300vh;
+}
+
+/* 
+.filha1, .filha2, .filha3 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  position: static;
+}
+
+.filha2 {
+  background-color: green;
+  position: absolute;
+  float: left;
+  z-index: 1;
+}
+
+.filha1 {
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  z-index: 2;
+}
+
+.filha3 {
+  background-color: blue;
+  position: fixed;
+  bottom: 25%;
+  right: 0;
+  z-index: 3;
+} */
+
+ul {
+  height: 100px;
+  overflow-y: auto;
+}
+
+ul li.sticky {
+  position: sticky;
+  background-color: gray;
+  top: 0;
+}
