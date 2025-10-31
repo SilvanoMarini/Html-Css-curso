@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 400vh;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: center;
+  background: yellow;
+  height: 100vh;
+}
+
+.flex-item {
+  text-transform: capitalize;
+  background: red;
+  width:33.33%;
+}
