@@ -24,3 +24,15 @@ p {
   margin: 15px;
   padding: 30px;
 }
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gallery .imagem {
+  flex: 1 0 20%;
+  height: 50px;
+  background-color: blue;
+  margin: 10px;
+}
